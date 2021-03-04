@@ -12,8 +12,8 @@
 
    Dla użytkowników Linuxa: można wywołać plik make_xpr.sh aby zbudować projekt (plik .xpr) z linii komend.
 
-2. W pliku full_adder.vhd napisz komponent pełnego sumatora i przetestuj go korzystając
+2. W pliku full_adder.vhd zaprojektuj komponent pełnego sumatora 1-bitowego  i przetestuj go korzystając
    z testbencha test.vhd
 
-3. W pliku 4bit_adder.vhd napisz komponent sumatora 4bitowego i przetestuj go korzystając z testbencha
+3. W pliku 4bit_adder.vhd napisz komponent sumatora 4-bitowego i przetestuj go korzystając z testbencha
    test4bit.vhd
