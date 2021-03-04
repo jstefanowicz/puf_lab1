@@ -1,0 +1,15 @@
+1. Zbuduj szkielet projektu przez wywołanie w konsoli tcl Vivado komendy:
+  
+     source lab1_proj.tcl
+     
+   Szkielet projektu zawiera pliki testbenchów przygotowane do przetestowania
+   napisanych przez Was modułów oraz zalążki plików modułów zawierające listy
+   portów i nazwy modułów pasujące do plików test-bench.
+
+   Dla użytkowników Linuxa: można wywołać plik make_xpr.sh aby zbudować projekt (plik .xpr) z linii komend.
+
+2. W pliku full_adder.vhd napisz komponent pełnego sumatora i przetestuj go korzystając
+   z testbencha test.vhd
+
+3. W pliku 4bit_adder.vhd napisz komponent sumatora 4bitowego i przetestuj go korzystając z testbencha
+   test4bit.vhd

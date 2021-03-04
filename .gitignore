@@ -1,0 +1,5 @@
+/lab1_proj/
+**/xvhdl.*
+**/vivado.log
+**/vivado.jou
+/.Xil/
