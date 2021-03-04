@@ -1,3 +1,7 @@
+0. Ściągnij pliki projektowe z Githuba:
+
+   https://github.com/jstefanowicz/puf_lab1
+   
 1. Zbuduj szkielet projektu przez wywołanie w konsoli tcl Vivado komendy:
   
      source lab1_proj.tcl
