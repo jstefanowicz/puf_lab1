@@ -129,9 +129,11 @@ if { $validate_required } {
     return
   }
 }
+# Get random FPGA part:
+set fpga_part [lindex [get_parts] 0]
 
 # Create project
-create_project ${_xil_proj_name_} ./${_xil_proj_name_} -part xa7a12tcpg238-2I
+create_project ${_xil_proj_name_} ./${_xil_proj_name_} -part ${fpga_part}
 
 # Set the directory path for the new project
 set proj_dir [get_property directory [current_project]]
